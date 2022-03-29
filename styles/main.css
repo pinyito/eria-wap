@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+#navbar li{
+    display: inline;
+    float: left;
+}
+#navbar{
+    background-color: #3D82EB;
+    height: 40px;
+}
+#navbar a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+#food-section img{
+    width: 300px;
+    height: 270px;
+}
+.clear{
+    clear: both;
+}
+#about-header{
+    text-align: center;
+}
+.main-section-content{
+    display: inline;
+    float: left;
+}
+#movie-info{
+    margin-left: 150px;
+}
+#campus-img{
+    margin-left: 180px;
+}
+.main-section-content img{
+    width: 450px;
+}
