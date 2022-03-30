@@ -19,6 +19,20 @@ main{
     display: block;
     padding: 8px;
     text-decoration: none;
+    color: pink;
+}
+#navbar a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#navbar a:active{
+    border: 1px solid grey;
+    border-radius: 10%;
+    background-color: aqua;
+}
+#my-name{
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #food-section img{
     width: 300px;
@@ -42,4 +56,19 @@ main{
 }
 .main-section-content img{
     width: 450px;
+}
+h3{
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p::first-letter{
+    font-size: 1.5em;
+}
+#validator-images img{
+    width: 150px;
+    height: 100px;
+    margin: 50px;
+}
+li{
+    line-height: 25px;
 }
