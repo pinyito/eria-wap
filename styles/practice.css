@@ -1,0 +1,44 @@
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+td{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+p{
+    border: 1px solid green;
+    padding: 5px;
+}
+span{
+    border: 1px solid black;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0px;
+    height: 30px;
+    width: 30px;
+}
+#p1{
+    width: 600px;
+    position: absolute;
+    /* left: 0px;
+    bottom: 0px; */
+}
+div{
+    height: 30px;
+    background-color: aqua;
+}
+/* 
+width = content width + L/R padding + L/R border + L/R margin
+-width and height dimensions are set for block elements and img exception of the inline elements
+-content dimensions are ignored for inline elements (width, height, max-width, max-height)
+-margin-top and bottom are ignored, but margin left-right are not
+ */

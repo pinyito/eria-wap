@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts/lab05.js"></script>
+    <style>
+        div, span{
+            background-color: yellow;
+            height: 30px;
+        }
+        .b > p{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <input id="num1" type="number" name="num1">
+    <input id="num2" type="number" name="num2">
+    <button id="btn">SWAP</button>
+
+    <script>
+        let num1Obj = document.getElementById('num1');
+        let num2Obj = document.getElementById('num2');
+        
+        // document.getElementById('btn').onclick = function(){
+        //     // let value1 = num1Obj.value;
+        //     // let value2 = num2Obj.value;
+        //     // num1Obj.value = value2;
+        //     // num2Obj.value = value1;
+        //     let temp = num1Obj.value;
+        //     num1Obj.value = num2Obj.value;
+        //     num2Obj.value = temp;
+        // };
+
+        // document.getElementById('btn').addEventListener('click', () => {
+        //     let temp = num1Obj.value;
+        //     num1Obj.value = num2Obj.value;
+        //     num2Obj.value = temp;
+        // });
+        document.getElementById('btn').addEventListener('click', swap);
+
+        function swap(){
+            let temp = num1Obj.value;
+            num1Obj.value = num2Obj.value;
+            num2Obj.value = temp;
+        }
+
+    </script>
+    <div class="b">
+        <p>
+            <span>hi</span>
+        </p>
+    </div>
+</body>
+</html>
